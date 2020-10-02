@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:wl_kis/Resources/Private/Language/locallang_db" date="2020-10-02T13:33:08Z" product-name="wl_kis">
+		<header/>
+		<body>
+			<trans-unit id="tx_wlkis_domain_model_kunde" resname="tx_wlkis_domain_model_kunde">
+				<source>Kunde</source>
+			</trans-unit>
+			<trans-unit id="tx_wlkis_domain_model_kunde.name" resname="tx_wlkis_domain_model_kunde.name">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_wlkis_domain_model_kunde.vorname" resname="tx_wlkis_domain_model_kunde.vorname">
+				<source>Vorname</source>
+			</trans-unit>
+			<trans-unit id="tx_wl_kis_kisfrontend.name" resname="tx_wl_kis_kisfrontend.name">
+				<source>Kis Frontend</source>
+			</trans-unit>
+			<trans-unit id="tx_wl_kis_kisfrontend.description" resname="tx_wl_kis_kisfrontend.description">
+				<source></source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

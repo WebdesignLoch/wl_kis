@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:wl_kis/Resources/Private/Language/locallang_csh" date="2020-10-02T13:30:24Z" product-name="wl_kis">
+		<header/>
+		<body>
+			<trans-unit id="rechnungsnummer.description" resname="rechnungsnummer.description">
+				<source>rechnungsnummer</source>
+			</trans-unit>
+			<trans-unit id="betrag.description" resname="betrag.description">
+				<source>betrag</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,30 @@
+
+plugin.tx_wlkis_kisfrontend {
+    view {
+        # cat=plugin.tx_wlkis_kisfrontend/file; type=string; label=Path to template root (FE)
+        templateRootPath = EXT:wl_kis/Resources/Private/Templates/
+        # cat=plugin.tx_wlkis_kisfrontend/file; type=string; label=Path to template partials (FE)
+        partialRootPath = EXT:wl_kis/Resources/Private/Partials/
+        # cat=plugin.tx_wlkis_kisfrontend/file; type=string; label=Path to template layouts (FE)
+        layoutRootPath = EXT:wl_kis/Resources/Private/Layouts/
+    }
+    persistence {
+        # cat=plugin.tx_wlkis_kisfrontend//a; type=string; label=Default storage PID
+        storagePid =
+    }
+}
+
+module.tx_wlkis_kisbackend {
+    view {
+        # cat=module.tx_wlkis_kisbackend/file; type=string; label=Path to template root (BE)
+        templateRootPath = EXT:wl_kis/Resources/Private/Backend/Templates/
+        # cat=module.tx_wlkis_kisbackend/file; type=string; label=Path to template partials (BE)
+        partialRootPath = EXT:wl_kis/Resources/Private/Backend/Partials/
+        # cat=module.tx_wlkis_kisbackend/file; type=string; label=Path to template layouts (BE)
+        layoutRootPath = EXT:wl_kis/Resources/Private/Backend/Layouts/
+    }
+    persistence {
+        # cat=module.tx_wlkis_kisbackend//a; type=string; label=Default storage PID
+        storagePid =
+    }
+}
